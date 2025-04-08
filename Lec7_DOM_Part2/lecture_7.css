@@ -1,0 +1,15 @@
+.box {
+    height: 200px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+.content {
+    color: greenyellow;
+}
+
+.contOverRight {
+    background-color: red;
+}

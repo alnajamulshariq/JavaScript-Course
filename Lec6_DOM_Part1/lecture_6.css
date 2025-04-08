@@ -1,0 +1,48 @@
+#nameTitle {
+    color: royalblue;
+}
+
+h1 {
+    color: crimson;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+}
+
+.inner {
+    height: 300px;
+    width: 300px;
+    border: 1px solid slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    padding: 8px 14px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.5s all;
+}
+
+#btn:hover {
+    background-color: yellow;
+    color: crimson;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: cyan;
+    margin: 5px;
+    text-align: center;
+}
