@@ -11,7 +11,7 @@ console.log(undefined);
 isFollow = true;
 console.log(isFollow);
 
-// let, const & var 
+// let, const & var
 
 // var: it can be redeclared & updated. A global scope variable.
 // let: it cannot be redeclared but can be updated. A block scope variable.
@@ -23,18 +23,16 @@ var price = 90;
 
 console.log(price);
 
-
 let myAge = 12;
 myAge = 15;
 myAge = 25;
 console.log(myAge);
 
+// datatypes in js
 
-// datatypes in js 
+// Number, String, Boolean, Undefined, Null, Bigint, Symbol
 
-// Number, String, Boolean, Undefined, Null, Bigint, Symbol 
-
-// Primitive (7), Non-Primitive (Object => Arrays , Functions) 
+// Primitive (7), Non-Primitive (Object => Arrays , Functions)
 
 let items = 7;
 console.log(items + " datatype " + typeof items);
@@ -59,12 +57,11 @@ let d = Symbol("hello!");
 console.log(d);
 console.log(typeof d);
 
-
 const student = {
-    stdName: "Shariq Najam",
-    age: 26,
-    gpa: 3.5,
-    isPass: true
+  stdName: "Shariq Najam",
+  age: 26,
+  gpa: 3.5,
+  isPass: true,
 };
 console.log(student);
 console.log(typeof student);
@@ -72,8 +69,32 @@ console.log(typeof student);
 console.log(student.age);
 console.log(student["age"]);
 
-// if we want to increase age of a student so we have to use this method 
+// if we want to increase age of a student so we have to use this method
 
 student["age"] = student["age"] + 1;
 
 console.log(student["age"]);
+
+// Practice 1
+
+const product = {
+  title: "Ball Pen",
+  rating: 4.5,
+  offer: 5,
+  price: 270,
+};
+
+console.log(product);
+
+// Practice 2
+
+const profile = {
+  userName: "Shariq Najam",
+  followers: 1000,
+  following: 500,
+  isFollow: true,
+  post: 100,
+  details: "Software Engineer",
+};
+
+console.log(typeof profile.isFollow);
