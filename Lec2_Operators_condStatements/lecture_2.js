@@ -9,15 +9,15 @@ console.log("a + b = ", a + b);
 console.log("a - b = ", a - b);
 console.log("a * b = ", a * b);
 console.log("a / b = ", a / b);
-// modulus shows the remainder 
+// modulus shows the remainder
 console.log("a % b = ", a % b);
-// Exponentiation is use as power 
+// Exponentiation is use as power
 console.log("a ** b = ", a ** b);
 // Unary Operator => post inc/dec firstly run code then change value but pre inc/dec firstly value change then print
 console.log("a+1 or a++", a++);
 console.log(a);
 console.log("a+1 or ++a", ++a);
-// decrement operator same as it is as increment operator 
+// decrement operator same as it is as increment operator
 console.log(a + 4);
 
 // Comparison Operator ( ==, ===, !=, !==, >, >=, <, <= )
@@ -40,9 +40,9 @@ console.log("10>2 || 2>10", a > b || b > a);
 console.log("!(10>2)", !(a > b));
 console.log("!(2>10)", !(b > a));
 
-// Conditional Statements 
-// To implement some condition in the code 
-// i- if statement 
+// Conditional Statements
+// To implement some condition in the code
+// i- if statement
 
 let age = 16;
 
@@ -54,7 +54,7 @@ if (age < 18) {
     console.log("You Can Not Vote");
 };
 
-// ii- if-else statement 
+// ii- if-else statement
 
 if (age > 18) {
     console.log("You can drink");
@@ -72,7 +72,7 @@ else {
     console.log("odd number");
 }
 
-// iii- else-if statement 
+// iii- else-if statement
 
 let citizenAge = 40;
 if (citizenAge < 18) {
@@ -84,13 +84,13 @@ else if (citizenAge <= 60) {
     console.log("you are senior citizen");
 }
 
-// ternary operator 
+// ternary operator
 let yourAge = 18;
 let result = yourAge >= 18 ? "adult" : "not adult";
 console.log(result);
 
-// practice 
-// q-1: Get user to input a number using prompt. check if the number multiple of 5 or not 
+// practice
+// q-1: Get user to input a number using prompt. check if the number multiple of 5 or not
 
 // let checkNum = prompt("please enter your number");
 // if (checkNum % 5 === 0) {
@@ -103,10 +103,10 @@ console.log(result);
 // q-2: Write a code which can give grades to students according to their scores:
 // 90-100, A1
 // 80-89, A
-// 70-79, B 
-// 60-69, C 
+// 70-79, B
+// 60-69, C
 // 50-59, D
-// 0-49, F 
+// 0-49, F
 
 // let grade = parseInt(prompt("please enter your Number"));
 // if (grade >= 90 && grade <= 100) {
